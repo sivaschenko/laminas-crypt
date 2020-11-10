@@ -24,11 +24,17 @@
             "dev-develop": "3.4.x-dev"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sivaschenko/laminas-math"
+        }
+    ],
     "require": {
         "php": "^5.6 || ^7.0 || ~8.0.0",
         "ext-mbstring": "*",
         "container-interop/container-interop": "^1.2",
-        "laminas/laminas-math": "^3.0",
+        "laminas/laminas-math": "dev-php8",
         "laminas/laminas-stdlib": "^2.7.7 || ^3.1",
         "laminas/laminas-zendframework-bridge": "^1.0"
     },
